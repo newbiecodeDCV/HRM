@@ -35,9 +35,9 @@ fi
 
 # Base docker run command with common options
 cmd="${cmd} -it --rm -p 6006:6006 --net=host --ipc=host \
-    -w /speech-classification \
-    -v /storage/asr/hiennt/Speechdw:/speech-classification \
-    -v /storage/asr/data/LibriSpeech:/data"
+    -w /HRM \
+    -v /storage/asr/hiennt/HRM:/HRM
+
 
 # Initialize environment variables string
 this_env=""
