@@ -37,7 +37,7 @@ fi
 cmd="${cmd} -it --rm -p 6006:6006 --net=host --ipc=host \
     -w /HRM \
     -v /storage/asr/hiennt/HRM:/HRM
-
+    "
 
 # Initialize environment variables string
 this_env=""
